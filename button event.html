@@ -7,24 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<div></div>
 
 <body>
+    <button onclick="add(3,5)" onclick="sub(6,7)">onclick</button>
 
     <script>
-        let a = prompt("Enter Your Total Marks")
-        let b = prompt("Enter Your Obtained Marks")
-        c = 100;
+        function add(a, b) {
+            alert(a + b);
+        }
 
-        document.write(b / a * c)
-
-        if (b > 399 && b < 500) {
-            document.write("% Congratulations You Have Got (A+) Grade")
+        function sub(a, b) {
+            alert(a - b);
         }
     </script>
-
-
-
 </body>
 
 </html>

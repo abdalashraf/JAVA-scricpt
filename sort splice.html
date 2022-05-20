@@ -7,24 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<div></div>
 
 <body>
-
     <script>
-        let a = prompt("Enter Your Total Marks")
-        let b = prompt("Enter Your Obtained Marks")
-        c = 100;
+        let a = [1, 2, 4]
 
-        document.write(b / a * c)
-
-        if (b > 399 && b < 500) {
-            document.write("% Congratulations You Have Got (A+) Grade")
-        }
+        a.splice(2, 0, 3)
+        document.write(a);
     </script>
-
-
-
 </body>
 
 </html>
