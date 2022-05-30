@@ -1,0 +1,33 @@
+.main {
+    height: 90vh;
+    width: 100%;
+    justify-content: center;
+    background-color: ;
+    text-align: center;
+    align-items: center;
+    border-color: black;
+}
+
+.text {
+    height: 20vh;
+    width: 50%;
+    justify-content: center;
+    background-color: pink;
+    text-align: center;
+    align-items: center;
+}
+
+.button {
+    height: 6vh;
+    margin: 1%;
+    width: 20%;
+}
+
+.screen {
+    height: 5vh;
+    width: 86%;
+    background-color: whitesmoke;
+    margin-left: 0%;
+    border-color: black;
+    margin-top: 2%;
+}
